@@ -1,0 +1,30 @@
+/**
+ * src/styles/settings.scss
+ *
+ * Configures SASS variables and Vuetify overwrites
+ */
+
+// https://vuetifyjs.com/features/sass-variables/`
+// @use 'vuetify/settings' with (
+//   $color-pack: false
+// );
+
+@media (min-width: 0px) {
+    .content-main {
+        width: 100%;
+        padding: 10px;
+    }
+}
+
+@media (min-width: 1000px) {
+    .content-main {
+        width: 75%;
+        margin: 0 auto;
+        height: 70%;
+        margin-bottom: 40px;
+    }
+}
+
+.v-progress-linear--absolute {
+    z-index: 99999;
+}
